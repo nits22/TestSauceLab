@@ -59,18 +59,6 @@
 			<artifactId>testng</artifactId>
 			<version>6.8.5</version>
 		</dependency>
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.6</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.saucelabs</groupId>
-            <artifactId>sauce_testng</artifactId>
-            <version>2.1.21</version>
-            <scope>test</scope>
-        </dependency>
 	</dependencies>
 
 
