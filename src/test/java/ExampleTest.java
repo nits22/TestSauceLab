@@ -27,8 +27,9 @@ public class ExampleTest {
 		     */
 
 		    driver.get("https://www.facebook.com/");
-		    System.out.println("title of page is: " + driver.getTitle());
-
+		  String title = driver.getTitle();
+		    
+		    assertEquals(title, "Facebook - Log In or Sign Up");
 		    driver.quit();
 		
 	}
