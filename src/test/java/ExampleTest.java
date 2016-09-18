@@ -15,7 +15,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-import com.saucelabs.*;
 import com.saucelabs.saucerest.SauceREST;
 
 
