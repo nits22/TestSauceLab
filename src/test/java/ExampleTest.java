@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import static org.junit.Assert.*;
+
 
 public class ExampleTest {
 
@@ -29,7 +29,7 @@ public class ExampleTest {
 		    driver.get("https://www.facebook.com/");
 		  String title = driver.getTitle();
 		  
-		    Assert.assertTrue(title==" Facebook - Log In or Sign Up", "test passed successfully");
+		    Assert.assertEquals(title,"Facebook - Log In or Sign Up");
 		    driver.quit();
 		
 	}
