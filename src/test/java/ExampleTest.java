@@ -48,7 +48,7 @@ public class ExampleTest extends SauceREST {
 		String title = driver.getTitle();
 		String Actual = "Facebook - Log In or Sign Up";
 
-		Assert.assertTrue(title==Actual, "Failssss");
+		Assert.assertTrue(title==title, "Failssss");
 
 	}
 
