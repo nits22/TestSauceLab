@@ -13,8 +13,8 @@ public class ExampleTest {
 	@Test
 	public void app1() throws MalformedURLException
 	{
-		  final String USERNAME = "nits";
-		  final String ACCESS_KEY = "1e9d3e5a-c560-4dda-814d-88d698895884";
+		 final String USERNAME = "nits11";
+		  final String ACCESS_KEY = "e1a437bb-51b0-454e-bf4b-806aa5e17876";
 		  final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 		  DesiredCapabilities caps = DesiredCapabilities.chrome();
 		    caps.setCapability("platform", "Windows XP");
