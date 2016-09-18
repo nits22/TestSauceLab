@@ -4,9 +4,9 @@ import java.net.URL;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import static org.junit.Assert.*;
-
 
 public class ExampleTest {
 
@@ -28,8 +28,8 @@ public class ExampleTest {
 
 		    driver.get("https://www.facebook.com/");
 		  String title = driver.getTitle();
-		    
-		    assertEquals(title, "Facebook - Log In or Sign Up");
+		  
+		    Assert.assertTrue(title==" Facebook - Log In or Sign Up", "test passed successfully");
 		    driver.quit();
 		
 	}
